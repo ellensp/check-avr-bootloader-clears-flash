@@ -1,7 +1,7 @@
-Tests that the end of flash ram on a a atmega2560 is cleared by the bootloader on a new firmware upload.
+Tests that the end of flash ram on a atmega2560 is cleared by the bootloader on a new firmware upload.
 
 There is a long known bug in a lot of mega2560 boot loaders that does not clear that flash above 0x3C000
-This checks if your bootloader is effected by this or not. 
+This checks if your bootloader is effected by this or not.
 
 AVR Fuse reading based on code found at https://www.avrfreaks.net/forum/read-fuse-bits-runtime by David Prentice
 
